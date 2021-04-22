@@ -4,6 +4,16 @@ Implementation of algorithms which were done as a part of Digital Image Processi
 ------------------------------------------------------------------------------------
 
 ## Assignment 1:
+1. Read a matrix of size 5*5 and find the following by using a user-defined function.
+    i. sum 
+    ii. maximum 
+    iii.mean   
+    iv.median    
+    v.mode     
+    vi.standard deviation        
+    v. frequency distribution
+    
+2. Read the matrix size through the keyboard and create a random matrix of integers ranging from  0 to 10 and compute all the above functions listed in question 1.
 
 3. Take a Lena image and convert it into grayscale. Add three different types of noises(salt and pepper, additive Gaussian noise, speckle), each noise in the sets of 5,10,15,20,25,30. Take average for each set and display the average images. Report the observation made.
 
@@ -29,3 +39,16 @@ Implementation of algorithms which were done as a part of Digital Image Processi
 2.Correlation
 
 >a. Consider the image the attached named as hdraw.png and crop each of the characters from the image and consider that as the sub-image. Find the location of the sub-image in the original by using correlation.
+
+>b. Download Lena color image convert it to grayscale image and crop the left eye of Lena as sub-image and do the cross-correlation ( Normalized correlation) to find the location of the left eye in the original image.
+
+3. Write a function to implement FFT for 1D signal.
+
+4. Implement DFT function for an image using the FFT for 1D signal using question 3.
+
+5. Consider the images of lena and dog images attached. Find phase and magnitude of the dog and lena images using DFT function implemented in question 4.
+
+6. Swap phase of the dog image and magnitude of the lena image and display the output.
+
+7. Swap phase of the lena image and magnitude of the dog image ad display the output
+
