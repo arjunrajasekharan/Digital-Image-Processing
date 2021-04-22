@@ -5,6 +5,7 @@ Implementation of algorithms which were done as a part of Digital Image Processi
 
 ## Assignment 1:
 1. Read a matrix of size 5*5 and find the following by using a user-defined function.
+  
     i. sum 
     ii. maximum 
     iii.mean   
